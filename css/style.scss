@@ -4,7 +4,6 @@
 @import "mixins";
 @import "footer";
 @import "header";
-@import "main";
 
 * {
   margin: 0;
@@ -184,7 +183,7 @@ body {
   }
   .more {
     font-family: Poppins;
-    margin-left: 35px;
+    margin-left: 53px;
     padding: 10px 20px 10px 20px;
     background: linear-gradient(97deg, #d10ed1 12.04%, #10a3da 81.84%);
     color: map-get($color, "white");
@@ -202,7 +201,7 @@ body {
     font-family: Poppins;
   }
   .lorem {
-    margin-top: 60px;
+    padding-top: 40px;
     font-size: 20px;
     // color: red;
   }

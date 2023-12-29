@@ -361,6 +361,14 @@ span {
     font-size: 12px;
     margin-left: 3px;
   }
+  .mobile-nav {
+    height: 25vh;
+    width: 30%;
+  }
+  .mobile-nav a {
+    padding-top: 10px;
+    font-size: 15px;
+  }
 }
 * {
   margin: 0;
@@ -554,7 +562,7 @@ body {
   }
   .more {
     font-family: Poppins;
-    margin-left: 35px;
+    margin-left: 53px;
     padding: 10px 20px 10px 20px;
     background: linear-gradient(97deg, #d10ed1 12.04%, #10a3da 81.84%);
     color: #fff;
@@ -571,7 +579,7 @@ body {
     font-family: Poppins;
   }
   .lorem {
-    margin-top: 60px;
+    padding-top: 40px;
     font-size: 20px;
   }
   .discus {
@@ -683,14 +691,6 @@ body {
   }
   .group {
     width: 300px;
-  }
-  .mobile-nav {
-    height: 25vh;
-    width: 30%;
-  }
-  .mobile-nav a {
-    padding-top: 10px;
-    font-size: 15px;
   }
   .know .more {
     margin-left: 22px;
