@@ -25,26 +25,69 @@ footer {
   font-family: Orbitron;
 }
 
+@media only screen and (max-width: 1200px) {  
+
+
+  .img1 {
+    width: 40%;
+  }
+  .vec {
+    display: none;
+  }
+  .col {
+    width: 100%;
+    margin: 10px;
+  }
+  .alt {
+    width: 100%;
+  }
+  .rec {
+    width: 250px;
+  }
+  .rect {
+    top: 100px;
+    left: 130px;
+  }
+  .what,
+  .what_2,
+  .know {
+    margin-left: 90px;
+  }
+ .what_2{
+  margin-left: 60px;
+ }
+  .know{
+    margin-top: 4px;
+  }
+  .group{
+    width: 370px;
+  }
+  .vid2 {
+    height: 85%;
+  }
+  .paus{
+    margin-top: 50px;
+  }
+  .fashion{
+    margin-left: 250px;
+  }
+
+  footer{
+    flex-wrap: wrap;
+    margin: 0;
+    padding: 40px 10px 40px 10px;
+   
+     }
+     .ven{
+       font-size: 14px;
+     }
+}
+
 @media only screen and (max-width: 600px) {
   footer {
     @include foo;
   }
-  .veta {
-    // margin: 20px;
-  }
 }
 
-@media screen and (max-width: 400px) {
-  footer {
-    @include foo;
-    padding: 0;
-  }
-  .mar,
-  .about,
-  .imj {
-    margin: 0 10px 0 10px;
-  }
-  .imj {
-    margin-top: 10px;
-  }
-}
+
+

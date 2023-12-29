@@ -35,172 +35,6 @@ footer {
   font-family: Orbitron;
 }
 
-@media only screen and (max-width: 600px) {
-  footer {
-    flex-wrap: wrap;
-    padding: 30px;
-    margin-top: 120px;
-    gap: 50px;
-  }
-}
-@media screen and (max-width: 400px) {
-  footer {
-    flex-wrap: wrap;
-    padding: 30px;
-    margin-top: 120px;
-    gap: 50px;
-    padding: 0;
-  }
-  .mar,
-  .about,
-  .imj {
-    margin: 0 10px 0 10px;
-  }
-  .imj {
-    margin-top: 10px;
-  }
-}
-.images {
-  display: flex;
-  justify-content: space-between;
-  padding: 15px;
-  align-items: center;
-  position: relative;
-  margin: 10px;
-  margin-top: 100px;
-  padding: 20px;
-  border-radius: 1046px;
-  background: radial-gradient(40.17% 39.79% at 50% 50%, rgba(170, 20, 240, 0.28) 0%, rgba(170, 20, 240, 0) 100%);
-}
-
-.rect {
-  position: absolute;
-  top: 100px;
-  left: 220px;
-}
-
-.hg {
-  margin-right: 70px;
-  font-family: Orbitron;
-}
-
-.what {
-  font-size: 45px;
-}
-
-.what_2 {
-  margin: 5px 0 0 7px;
-  color: #fff;
-  font-family: Poppins;
-}
-
-.know {
-  padding: 10px 20px 10px 20px;
-  background: linear-gradient(97deg, #d10ed1 12.04%, #10a3da 81.84%);
-  color: #fff;
-  border-radius: 5px;
-  border: none;
-  margin-top: 30px;
-  font-family: Poppins;
-}
-
-.lorem {
-  color: #fff;
-  text-align: center;
-  margin-top: 150px;
-  font-size: 40px;
-  font-family: Orbitron;
-}
-
-.lore {
-  color: #fff;
-  text-align: center;
-  font-family: Poppins;
-}
-
-.sec_3 {
-  display: flex;
-  justify-content: space-around;
-  align-items: center;
-  margin-top: 4%;
-  padding: 0;
-  width: 100%;
-  margin-top: 30px;
-}
-
-.butt1v {
-  padding: 10px 35px 10px 35px;
-  background: linear-gradient(97deg, #d10ed1 12.04%, #10a3da 81.84%);
-  color: #fff;
-  border-radius: 5px;
-  border: none;
-}
-
-.butt_flex {
-  display: flex;
-  gap: 10px;
-  font-family: Poppins;
-}
-
-.col {
-  background-color: #090823;
-  padding: 10px;
-  border-bottom-left-radius: 30px;
-  border-top-right-radius: 30px;
-}
-
-.discuss {
-  color: #fff;
-  margin-bottom: 15px;
-  font-family: Poppins;
-}
-
-.discus {
-  color: #fff;
-  margin: 12px 0 10px 0;
-  font-family: Orbitron;
-}
-
-.sec_4 {
-  display: flex;
-  justify-content: space-around;
-  align-items: center;
-  margin-top: 4%;
-  width: 100%;
-  margin-top: 30px;
-}
-
-.last_flex {
-  display: flex;
-  justify-content: space-between;
-  margin-top: 30px;
-}
-
-.video {
-  display: flex;
-  justify-content: center;
-  border-radius: 25px;
-  border: 2px solid #F86CF8;
-  width: 94%;
-  height: 85%;
-}
-
-.paus {
-  display: flex;
-  align-items: center;
-  flex-direction: column;
-  position: relative;
-  top: -400px;
-}
-
-.fashion {
-  position: relative;
-  top: 150px;
-  left: -250px;
-  font-size: 30px;
-  font-family: Orbitron;
-}
-
 @media only screen and (max-width: 1200px) {
   .img1 {
     width: 40%;
@@ -227,6 +61,9 @@ footer {
   .know {
     margin-left: 90px;
   }
+  .what_2 {
+    margin-left: 60px;
+  }
   .know {
     margin-top: 4px;
   }
@@ -244,9 +81,19 @@ footer {
   }
   footer {
     flex-wrap: wrap;
+    margin: 0;
+    padding: 40px 10px 40px 10px;
   }
-  .white {
-    margin-top: 50px;
+  .ven {
+    font-size: 14px;
+  }
+}
+@media only screen and (max-width: 600px) {
+  footer {
+    flex-wrap: wrap;
+    padding: 30px;
+    margin-top: 120px;
+    gap: 50px;
   }
 }
 h1 {
@@ -514,9 +361,6 @@ span {
     font-size: 12px;
     margin-left: 3px;
   }
-  .what_2 {
-    margin: 0 1px 0 1px;
-  }
 }
 * {
   margin: 0;
@@ -527,6 +371,146 @@ span {
 body {
   overflow-x: hidden;
   background-color: #000;
+}
+
+.images {
+  display: flex;
+  justify-content: space-between;
+  padding: 15px;
+  align-items: center;
+  position: relative;
+  margin: 10px;
+  margin-top: 100px;
+  padding: 20px;
+  background: radial-gradient(40.17% 39.79% at 50% 50%, rgba(170, 20, 240, 0.28) 0%, rgba(170, 20, 240, 0) 100%);
+}
+
+.rect {
+  position: absolute;
+  top: 100px;
+  left: 220px;
+}
+
+.hg {
+  margin-right: 70px;
+  font-family: Orbitron;
+}
+
+.what {
+  font-size: 45px;
+}
+
+.what_2 {
+  margin: 5px 0 0 7px;
+  color: #fff;
+  font-family: Poppins;
+}
+
+.know {
+  padding: 10px 20px 10px 20px;
+  background: linear-gradient(97deg, #d10ed1 12.04%, #10a3da 81.84%);
+  color: #fff;
+  border-radius: 5px;
+  border: none;
+  margin-top: 30px;
+  font-family: Poppins;
+}
+
+.lorem {
+  color: #fff;
+  text-align: center;
+  margin-top: 150px;
+  font-size: 40px;
+  font-family: Orbitron;
+}
+
+.lore {
+  color: #fff;
+  text-align: center;
+  font-family: Poppins;
+}
+
+.sec_3 {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  margin-top: 4%;
+  padding: 0;
+  width: 100%;
+  margin-top: 30px;
+}
+
+.butt1v {
+  padding: 10px 35px 10px 35px;
+  background: linear-gradient(97deg, #d10ed1 12.04%, #10a3da 81.84%);
+  color: #fff;
+  border-radius: 5px;
+  border: none;
+}
+
+.butt_flex {
+  display: flex;
+  gap: 10px;
+  font-family: Poppins;
+}
+
+.col {
+  background-color: #090823;
+  padding: 10px;
+  border-bottom-left-radius: 30px;
+  border-top-right-radius: 30px;
+}
+
+.discuss {
+  color: #fff;
+  margin-bottom: 15px;
+  font-family: Poppins;
+}
+
+.discus {
+  color: #fff;
+  margin: 12px 0 10px 0;
+  font-family: Orbitron;
+}
+
+.sec_4 {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  margin-top: 4%;
+  width: 100%;
+  margin-top: 30px;
+}
+
+.last_flex {
+  display: flex;
+  justify-content: space-between;
+  margin-top: 30px;
+}
+
+.video {
+  display: flex;
+  justify-content: center;
+  border-radius: 25px;
+  border: 2px solid #F86CF8;
+  width: 94%;
+  height: 85%;
+}
+
+.paus {
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  position: relative;
+  top: -400px;
+}
+
+.fashion {
+  position: relative;
+  top: 150px;
+  left: -250px;
+  font-size: 30px;
+  font-family: Orbitron;
 }
 
 @media only screen and (max-width: 600px) {
@@ -710,6 +694,21 @@ body {
   }
   .know .more {
     margin-left: 22px;
+  }
+  footer {
+    flex-wrap: wrap;
+    padding: 30px;
+    margin-top: 120px;
+    gap: 50px;
+    padding: 0;
+  }
+  .mar,
+  .about,
+  .imj {
+    margin: 0 8px 0 10px;
+  }
+  .imj {
+    margin-top: 10px;
   }
 }
 @media screen and (min-width: 600px) {
