@@ -5,10 +5,10 @@ footer {
   color: #fff;
   font-family: Poppins;
 }
-.mar {
-  margin-top: 10px;
-  font-family: Poppins;
-}
+// .mar {
+//   margin-top: 10px;
+//   font-family: Poppins;
+// }
 .veta {
   background: var(--2, linear-gradient(97deg, #f86cf8 12.04%, #64cef5 81.84%));
   background-clip: text;
@@ -25,8 +25,10 @@ footer {
   font-family: Orbitron;
 }
 
-@media only screen and (max-width: 1200px) {  
-
+@media only screen and (max-width: 1000px) {
+  // .img1{
+  //   width: 85%;
+  // }
 
   .img1 {
     width: 40%;
@@ -41,53 +43,47 @@ footer {
   .alt {
     width: 100%;
   }
-  .rec {
-    width: 250px;
-  }
-  .rect {
-    top: 100px;
-    left: 130px;
-  }
-  .what,
-  .what_2,
   .know {
-    margin-left: 90px;
-  }
- .what_2{
-  margin-left: 60px;
- }
-  .know{
     margin-top: 4px;
   }
-  .group{
-    width: 370px;
-  }
+  // .group{
+  //   width: 370px;
+  // }
   .vid2 {
     height: 85%;
   }
-  .paus{
+  .paus {
     margin-top: 50px;
   }
-  .fashion{
+  .fashion {
     margin-left: 250px;
   }
+}
 
-  footer{
+@media only screen and (max-width: 1200px) {
+  .my {
+    width: 400px;
+  }
+  .vec {
+    display: none;
+  }
+  .lorem {
+    margin-top: 0;
+  }
+  // main styling
+
+  footer {
     flex-wrap: wrap;
     margin: 0;
     padding: 40px 10px 40px 10px;
-   
-     }
-     .ven{
-       font-size: 14px;
-     }
-}
-
-@media only screen and (max-width: 600px) {
-  footer {
-    @include foo;
+  }
+  .ven {
+    font-size: 14px;
   }
 }
 
-
-
+@media only screen and (max-width: 1000px) {
+  .my {
+    width: 262px;
+  }
+}

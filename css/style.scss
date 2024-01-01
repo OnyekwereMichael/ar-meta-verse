@@ -16,45 +16,33 @@ body {
   background-color: map-get($color, "black");
 }
 
-.images {
-  @include navbar;
-  position: relative;
-  margin: 10px;
-  margin-top: 100px;
-  padding: 20px;
-  background: radial-gradient(
-    40.17% 39.79% at 50% 50%,
-    rgba(170, 20, 240, 0.28) 0%,
-    rgba(170, 20, 240, 0) 100%
-  );
+.three {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: 50px;
+  padding: 30px;
+  margin-top: 4%;
 }
-.rect {
-  position: absolute;
-  top: 100px;
-  left: 220px;
-}
-.hg {
-  margin-right: 70px;
+.verse {
+  font-size: 40px;
   font-family: Orbitron;
 }
-.what {
-  font-size: 45px;
-}
-.what_2 {
-  margin: 5px 0 0 7px;
-  color: map-get($color, "white");
+.verse_2 {
+  font-size: 20px;
+  color: #fff;
   font-family: Poppins;
 }
-.know {
+.moret {
+  font-family: Poppins;
+  // margin-left: 53px;
   padding: 10px 20px 10px 20px;
   background: linear-gradient(97deg, #d10ed1 12.04%, #10a3da 81.84%);
   color: map-get($color, "white");
   border-radius: $border-radius;
   border: none;
-  margin-top: 30px;
-  font-family: Poppins;
+  margin-top: 10px;
 }
-
 .lorem {
   color: #fff;
   text-align: center;
@@ -106,7 +94,7 @@ body {
   width: 100%;
   margin-top: 30px;
 }
-.last_flex {
+.video_flex {
   display: flex;
   justify-content: space-between;
   margin-top: 30px;
@@ -125,9 +113,6 @@ body {
   flex-direction: column;
   position: relative;
   top: -400px;
-  // left: 520px;
-}
-.pause {
 }
 .fashion {
   position: relative;
@@ -137,73 +122,38 @@ body {
   font-family: Orbitron;
 }
 
-// footer styling begins
+@media screen and (max-width: 1000px) {
+  .my {
+    width: 300px;
+  }
+  .verse {
+    font-size: 30px;
+  }
+  .verse_2 {
+    font-size: 15px;
+  }
+  .three {
+    margin-top: 70px;
+  }
+  .lorem {
+    margin-top: 100px;
+  }
+}
 
 @media only screen and (max-width: 600px) {
   .vec {
     display: none;
   }
-
-  .images {
-    // display: none;
-    flex-wrap: wrap;
-    width: 40%;
-    margin-top: 0;
-    padding: 0;
-    margin-left: 40px;
-  }
   .explore {
     font-size: 25px;
     margin-top: 25px;
   }
-  .group {
-    width: 350px;
-  }
-
-  .rect {
-    top: 60px;
-    left: 100px;
-  }
-  .rec {
-    width: 235px;
-  }
-  .hge {
-    margin: 40px 0 80px 0;
-    font-family: Orbitron;
-  }
-  .what {
-    font-size: 30px;
-    text-align: center;
-  }
-  .what_2 {
-    font-size: 15px;
-    text-align: center;
-    font-family: Poppins;
-    font-weight: normal;
-  }
-  .more {
-    font-family: Poppins;
-    margin-left: 53px;
-    padding: 10px 20px 10px 20px;
-    background: linear-gradient(97deg, #d10ed1 12.04%, #10a3da 81.84%);
-    color: map-get($color, "white");
-    border-radius: $border-radius;
-    border: none;
-    margin-top: 10px;
-  }
+  // .group {
+  //   width: 350px;
+  // }
   .lorem,
   .lore {
     margin-top: 5px;
-  }
-  .lore {
-    font-size: 3px;
-    // letter-spacing: 2px;
-    font-family: Poppins;
-  }
-  .lorem {
-    padding-top: 40px;
-    font-size: 20px;
-    // color: red;
   }
   .discus {
     font-size: 20px;
@@ -211,27 +161,28 @@ body {
   .discuss {
     font-size: 13px;
   }
+  .verse {
+    font-size: 30px;
+  }
+  .verse_2 {
+    font-size: 13px;
+  }
   .sec_3 {
     flex-wrap: wrap;
     width: 80%;
-    // display: none;
     margin: 10px 42px 10px 42px;
   }
   .col {
     margin-top: 20px;
   }
-  .hg {
-    display: none;
+  .three {
+    flex-wrap: wrap;
+    margin: 0;
   }
   .sec_4 {
     display: none;
   }
-  .what,
-  .what_2,
-  .know {
-    margin-left: 0;
-  }
-  .last_flex {
+  .video_flex {
     flex-wrap: wrap;
   }
   .video,
@@ -288,16 +239,32 @@ body {
   }
   .lorem {
     font-size: 25px;
+    margin-top: 70px;
   }
   .lore {
     font-size: 15px;
   }
+  .my {
+    width: 350px;
+  }
+
+  // footer sty
+
+  footer {
+    @include foo;
+    padding: 30px 0 30px 0;
+  }
+  .mar,
+  .about,
+  .imj {
+    margin: 0 8px 0 10px;
+  }
+  .imj {
+    margin-top: 10px;
+  }
 }
 
 @media screen and (max-width: 400px) {
-  .rec {
-    width: 200px;
-  }
   .sec_3 {
     flex-wrap: wrap;
     margin-right: -30px;
@@ -309,32 +276,28 @@ body {
     width: 100%;
   }
   .lorem {
-    font-size: 25px;
+    font-size: 20px;
   }
   .lore {
-    font-size: 14px;
+    font-size: 10px;
   }
   .group {
     width: 300px;
   }
-
-  .know {
-    .more {
-      margin-left: 22px;
-    }
+  .my {
+    width: 300px;
   }
-
-  footer {
-    @include foo;
-    padding: 0;
+  .verse {
+    font-size: 25px;
+  }
+  .white {
+    padding: 1px;
   }
   .mar,
   .about,
   .imj {
-    margin: 0 8px 0 10px;
-  }
-  .imj {
-    margin-top: 10px;
+    margin: 0 5px 0 5px;
+    // font-size: 17px;
   }
 }
 
@@ -350,9 +313,6 @@ body {
     display: none;
   }
   .pauser {
-    display: none;
-  }
-  .hge {
     display: none;
   }
 }

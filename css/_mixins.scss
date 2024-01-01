@@ -1,48 +1,44 @@
-
 $color: (
-    "black": #000,
-    "whitesmoke": whitesmoke,
-    "red": red,
-    "lightblue": #27AAE1,
-    "golden":  #FB7203,
-    "fadedblue": #F3F7FC,
-    "white": #fff,
-    "wine": #BF3030,
-    "whine":  #090823,
-    "pink":  #F86CF8,
-  
+  "black": #000,
+  "whitesmoke": whitesmoke,
+  "red": red,
+  "lightblue": #27aae1,
+  "golden": #fb7203,
+  "fadedblue": #f3f7fc,
+  "white": #fff,
+  "wine": #bf3030,
+  "whine": #090823,
+  "pink": #f86cf8,
 );
 
 $position: "absolute";
 $text-align: "center";
 $border-radius: 5px;
 
-
-@mixin navbar(){
-    display: flex;
-    justify-content: space-between;
-    padding: 15px;
-    align-items: center;
+@mixin navbar() {
+  display: flex;
+  justify-content: space-between;
+  padding: 15px;
+  align-items: center;
 }
-@mixin footer(){
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
-    gap: 30px;
-     padding: 50px;
-     background-color: map-get($color, "whine" );
+@mixin footer() {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  gap: 30px;
+  padding: 50px;
+  background-color: map-get($color, "whine");
 }
-@mixin foo(){
-    flex-wrap: wrap;
-    padding: 30px;
-    margin-top: 120px;
-    gap: 50px;
-   
+@mixin foo() {
+  flex-wrap: wrap;
+  padding: 30px;
+  margin-top: 120px;
+  gap: 80px;
 }
 
-@mixin first(){
-    display: flex;
-    justify-content: space-around;
-    align-items: center;
-    margin-top: 4%;
+@mixin first() {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  margin-top: 4%;
 }

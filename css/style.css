@@ -14,11 +14,6 @@ footer {
   font-family: Poppins;
 }
 
-.mar {
-  margin-top: 10px;
-  font-family: Poppins;
-}
-
 .veta {
   background: var(--2, linear-gradient(97deg, #f86cf8 12.04%, #64cef5 81.84%));
   background-clip: text;
@@ -35,7 +30,7 @@ footer {
   font-family: Orbitron;
 }
 
-@media only screen and (max-width: 1200px) {
+@media only screen and (max-width: 1000px) {
   .img1 {
     width: 40%;
   }
@@ -49,26 +44,8 @@ footer {
   .alt {
     width: 100%;
   }
-  .rec {
-    width: 250px;
-  }
-  .rect {
-    top: 100px;
-    left: 130px;
-  }
-  .what,
-  .what_2,
-  .know {
-    margin-left: 90px;
-  }
-  .what_2 {
-    margin-left: 60px;
-  }
   .know {
     margin-top: 4px;
-  }
-  .group {
-    width: 370px;
   }
   .vid2 {
     height: 85%;
@@ -79,6 +56,17 @@ footer {
   .fashion {
     margin-left: 250px;
   }
+}
+@media only screen and (max-width: 1200px) {
+  .my {
+    width: 400px;
+  }
+  .vec {
+    display: none;
+  }
+  .lorem {
+    margin-top: 0;
+  }
   footer {
     flex-wrap: wrap;
     margin: 0;
@@ -88,12 +76,9 @@ footer {
     font-size: 14px;
   }
 }
-@media only screen and (max-width: 600px) {
-  footer {
-    flex-wrap: wrap;
-    padding: 30px;
-    margin-top: 120px;
-    gap: 50px;
+@media only screen and (max-width: 1000px) {
+  .my {
+    width: 262px;
   }
 }
 h1 {
@@ -243,6 +228,7 @@ span {
 
 .mobile-nav a {
   display: block;
+  font-family: Orbitron;
   padding-top: 25px;
   margin-top: 5px;
   text-align: center;
@@ -327,38 +313,38 @@ span {
     position: "absolute";
     top: -470px;
     left: 10px;
-    font-size: 20px;
+    font-size: 18px;
   }
   .relat {
     position: "absolute";
-    top: -445px;
+    top: -449px;
     left: 10px;
-    font-size: 12px;
+    font-size: 11px;
   }
   .rela_2 {
     position: "absolute";
     top: -565px;
     left: 80px;
-    font-size: 20px;
+    font-size: 18px;
   }
   .relat_2 {
     position: a "absolute";
-    top: -539px;
+    top: -544px;
     left: 83px;
-    font-size: 12px;
+    font-size: 11px;
   }
   .rela_3 {
     position: "absolute";
     top: -515px;
     left: 280px;
-    font-size: 20px;
+    font-size: 18px;
     margin-left: 10px;
   }
   .relat_3 {
     position: "absolute";
-    top: -490px;
+    top: -495px;
     left: 287px;
-    font-size: 12px;
+    font-size: 11px;
     margin-left: 3px;
   }
   .mobile-nav {
@@ -381,47 +367,34 @@ body {
   background-color: #000;
 }
 
-.images {
+.three {
   display: flex;
-  justify-content: space-between;
-  padding: 15px;
   align-items: center;
-  position: relative;
-  margin: 10px;
-  margin-top: 100px;
-  padding: 20px;
-  background: radial-gradient(40.17% 39.79% at 50% 50%, rgba(170, 20, 240, 0.28) 0%, rgba(170, 20, 240, 0) 100%);
+  justify-content: space-between;
+  gap: 50px;
+  padding: 30px;
+  margin-top: 4%;
 }
 
-.rect {
-  position: absolute;
-  top: 100px;
-  left: 220px;
-}
-
-.hg {
-  margin-right: 70px;
+.verse {
+  font-size: 40px;
   font-family: Orbitron;
 }
 
-.what {
-  font-size: 45px;
-}
-
-.what_2 {
-  margin: 5px 0 0 7px;
+.verse_2 {
+  font-size: 20px;
   color: #fff;
   font-family: Poppins;
 }
 
-.know {
+.moret {
+  font-family: Poppins;
   padding: 10px 20px 10px 20px;
   background: linear-gradient(97deg, #d10ed1 12.04%, #10a3da 81.84%);
   color: #fff;
   border-radius: 5px;
   border: none;
-  margin-top: 30px;
-  font-family: Poppins;
+  margin-top: 10px;
 }
 
 .lorem {
@@ -490,7 +463,7 @@ body {
   margin-top: 30px;
 }
 
-.last_flex {
+.video_flex {
   display: flex;
   justify-content: space-between;
   margin-top: 30px;
@@ -500,7 +473,7 @@ body {
   display: flex;
   justify-content: center;
   border-radius: 25px;
-  border: 2px solid #F86CF8;
+  border: 2px solid #f86cf8;
   width: 94%;
   height: 85%;
 }
@@ -521,71 +494,45 @@ body {
   font-family: Orbitron;
 }
 
+@media screen and (max-width: 1000px) {
+  .my {
+    width: 300px;
+  }
+  .verse {
+    font-size: 30px;
+  }
+  .verse_2 {
+    font-size: 15px;
+  }
+  .three {
+    margin-top: 70px;
+  }
+  .lorem {
+    margin-top: 100px;
+  }
+}
 @media only screen and (max-width: 600px) {
   .vec {
     display: none;
-  }
-  .images {
-    flex-wrap: wrap;
-    width: 40%;
-    margin-top: 0;
-    padding: 0;
-    margin-left: 40px;
   }
   .explore {
     font-size: 25px;
     margin-top: 25px;
   }
-  .group {
-    width: 350px;
-  }
-  .rect {
-    top: 60px;
-    left: 100px;
-  }
-  .rec {
-    width: 235px;
-  }
-  .hge {
-    margin: 40px 0 80px 0;
-    font-family: Orbitron;
-  }
-  .what {
-    font-size: 30px;
-    text-align: center;
-  }
-  .what_2 {
-    font-size: 15px;
-    text-align: center;
-    font-family: Poppins;
-    font-weight: normal;
-  }
-  .more {
-    font-family: Poppins;
-    margin-left: 53px;
-    padding: 10px 20px 10px 20px;
-    background: linear-gradient(97deg, #d10ed1 12.04%, #10a3da 81.84%);
-    color: #fff;
-    border-radius: 5px;
-    border: none;
-    margin-top: 10px;
-  }
   .lorem,
   .lore {
     margin-top: 5px;
-  }
-  .lore {
-    font-size: 3px;
-    font-family: Poppins;
-  }
-  .lorem {
-    padding-top: 40px;
-    font-size: 20px;
   }
   .discus {
     font-size: 20px;
   }
   .discuss {
+    font-size: 13px;
+  }
+  .verse {
+    font-size: 30px;
+  }
+  .verse_2 {
     font-size: 13px;
   }
   .sec_3 {
@@ -596,18 +543,14 @@ body {
   .col {
     margin-top: 20px;
   }
-  .hg {
-    display: none;
+  .three {
+    flex-wrap: wrap;
+    margin: 0;
   }
   .sec_4 {
     display: none;
   }
-  .what,
-  .what_2,
-  .know {
-    margin-left: 0;
-  }
-  .last_flex {
+  .video_flex {
     flex-wrap: wrap;
   }
   .video,
@@ -664,15 +607,31 @@ body {
   }
   .lorem {
     font-size: 25px;
+    margin-top: 70px;
   }
   .lore {
     font-size: 15px;
   }
+  .my {
+    width: 350px;
+  }
+  footer {
+    flex-wrap: wrap;
+    padding: 30px;
+    margin-top: 120px;
+    gap: 80px;
+    padding: 30px 0 30px 0;
+  }
+  .mar,
+  .about,
+  .imj {
+    margin: 0 8px 0 10px;
+  }
+  .imj {
+    margin-top: 10px;
+  }
 }
 @media screen and (max-width: 400px) {
-  .rec {
-    width: 200px;
-  }
   .sec_3 {
     flex-wrap: wrap;
     margin-right: -30px;
@@ -684,31 +643,27 @@ body {
     width: 100%;
   }
   .lorem {
-    font-size: 25px;
+    font-size: 20px;
   }
   .lore {
-    font-size: 14px;
+    font-size: 10px;
   }
   .group {
     width: 300px;
   }
-  .know .more {
-    margin-left: 22px;
+  .my {
+    width: 300px;
   }
-  footer {
-    flex-wrap: wrap;
-    padding: 30px;
-    margin-top: 120px;
-    gap: 50px;
-    padding: 0;
+  .verse {
+    font-size: 25px;
+  }
+  .white {
+    padding: 1px;
   }
   .mar,
   .about,
   .imj {
-    margin: 0 8px 0 10px;
-  }
-  .imj {
-    margin-top: 10px;
+    margin: 0 5px 0 5px;
   }
 }
 @media screen and (min-width: 600px) {
@@ -722,9 +677,6 @@ body {
     display: none;
   }
   .pauser {
-    display: none;
-  }
-  .hge {
     display: none;
   }
 }/*# sourceMappingURL=style.css.map */
