@@ -81,6 +81,18 @@ footer {
     width: 262px;
   }
 }
+header {
+  animation: fade-out linear;
+  animation-timeline: view();
+  animation-range: exit;
+}
+
+@keyframes fade-out {
+  to {
+    opacity: 0;
+    scale: 3;
+  }
+}
 h1 {
   color: #fff;
 }
@@ -306,6 +318,11 @@ span {
   }
   .mobile-nav {
     height: 35vh;
+  }
+  @keyframes fade-out {
+    to {
+      opacity: 0;
+    }
   }
 }
 @media screen and (max-width: 400px) {
